@@ -521,7 +521,7 @@ Running asc_sort_timestamp                                                     [
 
 1. primary shards  一些主分片的指标
 2. Throughput 关于es的一些吞吐量的关键指标
-3. latency 查询的延迟时间
+3. latency 查询的延迟时间(一个请求到最终返回)
 4. service time  服务的延迟时间
 5. Segment count 分片之后的分段数
 6. Error rate 错误率
@@ -533,7 +533,3 @@ Running asc_sort_timestamp                                                     [
 > 利用kibana进行数据结果分析
 
 ** 熟悉后面补上
-
-
-
-
